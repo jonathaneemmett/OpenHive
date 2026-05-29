@@ -1,0 +1,21 @@
+[project]
+name = "openhive"
+version = "0.1.0"
+description = "Self-hosted AI assistant MCP server"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.8",
+]
+
+[project.scripts]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.mypy]
+python_version = "3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
