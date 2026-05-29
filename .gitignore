@@ -1,7 +1,5 @@
-node_modules/
-dist/
-*.tsbuildinfo
+
 .env
 
 ROADMAP.md
-CLAUDE.md
+.claude
